@@ -25,5 +25,21 @@ showValue(88)
 showValue(2)
 
 
+function licenseValidity(speed){
+    let demerit;
+    if (speed<=70){
+        demerit="okay";
+    }else if(((speed-70)/5)>=12){
+        demerit = "license suspended";
+    }else if(speed>=71){
+        demerit = ('points:'+(speed-70)/5);
+    }
+    console.log(demerit)
+}
+licenseValidity(220)
+     licenseValidity(90)
+     licenseValidity(69)
+     licenseValidity(110)
+
 
 
