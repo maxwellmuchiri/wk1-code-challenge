@@ -20,7 +20,7 @@ cd wk1-code-challenge
 Running the application:
 use node index.js to get the solutions of your keyed in querries
 
-Authors
+Author
 This project was created by:
 Maxwell Muchiri
 License
